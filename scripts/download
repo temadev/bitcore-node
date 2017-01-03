@@ -12,7 +12,7 @@ tag="v0.12.1-bitcore-4"
 if [ "${platform}" == "linux" ]; then
     if [ "${arch}" == "x86_64" ]; then
         tarball_name="bitcoin-${version}-linux64.tar.gz"
-    elif [ "${arch}" == "x86_32" ]; then
+    else
         tarball_name="bitcoin-${version}-linux32.tar.gz"
     fi
 elif [ "${platform}" == "darwin" ]; then
